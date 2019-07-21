@@ -9,6 +9,6 @@ def run_guessing_game
   elsif input.to_i ==random_num
     puts "You guessed the correct number!"
   else
-    puts "Sorry"
+    puts "Sorry! The computer guessed #{random_num}"
   end
 end
